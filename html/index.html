@@ -1,0 +1,85 @@
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <title>AlphaBit</title>
+    <link rel="stylesheet" href="../scripts/stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="../scripts/stylesheets/bootstrap-grid.css">
+    <link rel="stylesheet" href="../scripts/stylesheets/bootstrap-reboot.css">
+    <link rel="stylesheet" href="../scripts/stylesheets/index.css">
+    <script src="../scripts/JS/jquery-1.8.3.min.js"></script>
+    <script src="../scripts/JS/animatescroll.js"></script>
+    <script src="../scripts/JS/bootstrap.bundle.js"></script>
+    <script src="../scripts/JS/bootstrap.js"></script>
+
+</head>
+
+<body>
+<div class="topnav" id="myTopnav">
+    <div class="navtabClass">
+        <div class="logo">
+            <a href="#">
+                <img src="../images/logo.jpeg" class="logo">
+            </a>
+        </div>
+        <div class="tabs">
+            <a href="#" class="navText" onclick="$('#aboutDiv').animatescroll()">About</a>
+            <a href="#" class="navText" href="/roadMap/">RoadMap for CSE</a>
+            <a href="#" class="navText" onclick="$('#eventsDiv').animatescroll()">Events</a>
+            <a href="#" class="navText" onclick="$('#projectsDiv').animatescroll()">Projects</a>
+            <a href="#" class="navText" onclick="$('#coreTeamDiv').animatescroll()">Core Team</a>
+            <a href="#" class="navText" onclick="$('#loginDiv').animatescroll()">Login/Register</a>
+        </div>
+    </div>
+
+</div>
+<div id="contentDiv" class="content">
+    <div id="homePageDiv">
+        <div class="main">
+        </div>
+    </div>
+    <div id="aboutDiv" class="page" style="background-image: url('../images/Contact-page-background.jpg');opacity: 0.5">
+        <div class="main">
+            <h4 style="font-weight: bolder;font-size: 25px;">A Byte About Us</h4>
+            <div class="col-md-9">
+                Alphabit, GBPEC Delhi's programming club, was founded in 2017. Alphabit is a community
+                of students highly enthusiastic about Coding, Web development, Android development
+                and all other aspects of programming.The aim of Alphabit is to promote programming as a
+                culture in the Institute. The club brings people together, so that they may hone their
+                skills in programming.
+                <br>
+                <br>
+                We aim to prepare ourselves better for
+                programming competitions like ACM-ICPC, and keep our community aware about upcoming events and help
+                students
+                be ready for their placements.
+                Apart from this, we also develop various applications to be used by the campus junta and promote open
+                source development.
+                <br>
+                <br>
+                Bottom line, if you are @ GBPEC Delhi and you think you can fall in love with coding, Alphabit is the
+                place
+                for you!
+                <br>
+                <pre style="background-color: #222;color: white; width: 850px;">                     while(!(succeed = try () ));</pre>
+            </div>
+        </div>
+    </div>
+    <div id="eventsDiv" class="page">
+        <div class="main">
+            EVENTS
+        </div>
+    </div>
+    <div id="projectsDiv" class="page">
+        <div class="main">
+            PROJECTS
+        </div>
+    </div>
+    <div id="coreTeamDiv" class="page">
+        <div class="main">
+            CORE-TEAM
+        </div>
+    </div>
+</div>
+</body>
+</html>
